@@ -1,2 +1,0 @@
-# endthecult
-Play.
