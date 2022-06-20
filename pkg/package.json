@@ -1,0 +1,12 @@
+{
+  "name": "testicle",
+  "version": "0.1.0",
+  "files": [
+    "testicle_bg.wasm",
+    "testicle.js",
+    "testicle.d.ts"
+  ],
+  "module": "testicle.js",
+  "types": "testicle.d.ts",
+  "sideEffects": false
+}
