@@ -1,0 +1,12 @@
+{
+  "name": "endthecult",
+  "version": "0.1.0",
+  "files": [
+    "endthecult_bg.wasm",
+    "endthecult.js",
+    "endthecult.d.ts"
+  ],
+  "module": "endthecult.js",
+  "types": "endthecult.d.ts",
+  "sideEffects": false
+}
