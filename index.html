@@ -18,33 +18,36 @@
           #fff 100%
         );
         background-repeat: repeat;
-        background-size: 120px 120px;/*
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        height: 100%;*/
+        background-size: 120px 120px;
+      }
+      .blob {
+        background-color: hsla(33, 100%, 50%, 0.5);
+      }
+      .blob-base {
+        background-color: hsla(0, 0%, 100%, 0.5);
       }
     </style>
   </head>
   <body>
-    <p>
-    <h2>Press the "Play" button to start, loading might take a second depending on your network so be patient.<br>v. 1-ish,<br></h2>
-    </p>
-    <p><br>
-      <div>
-        <a href="pkg/index.html">
-        <button class="btn">Play</button>
-        </a>
-      </div>
-    </p><br>
-    <p>
-    <h2>Here's some stuff I guess you could call a <a text="Blog" href="blog/index.html">Blog.</a></h2>
-    </p>
-    <div>
+    <div class="blob-base">
       <p>
-      <h2>Here's some stuff I guess you could call <a text="Art" href="art/index.html">Art.</a></h2>
+      <h2 class="blob">Press the "Play" button to start, loading might take a second depending on your network so be patient.<br>v. 1-ish,<br></h2>
       </p>
+      <p class="blob"><br>
+        <div>
+          <a href="pkg/index.html">
+          <button class="btn, blob">Play</button>
+          </a>
+        </div>
+      </p><br>
+      <p>
+      <h2 class="blob">Here's some stuff I guess you could call a <a text="Blog" href="blog/index.html">Blog.</a></h2>
+      </p>
+      <div class="blob">
+        <p>
+        <h2>Here's some stuff I guess you could call <a text="Art" href="art/index.html">Art.</a></h2>
+        </p>
+      </div>
     </div>
   </body>
 </html>
