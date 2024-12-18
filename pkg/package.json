@@ -1,12 +1,15 @@
 {
-  "name": "endthecult",
+  "name": "develop",
+  "type": "module",
   "version": "0.1.0",
   "files": [
-    "endthecult_bg.wasm",
-    "endthecult.js",
-    "endthecult.d.ts"
+    "develop_bg.wasm",
+    "develop.js",
+    "develop.d.ts"
   ],
-  "module": "endthecult.js",
-  "types": "endthecult.d.ts",
-  "sideEffects": false
+  "main": "develop.js",
+  "types": "develop.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
 }
