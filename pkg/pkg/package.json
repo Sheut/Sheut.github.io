@@ -1,0 +1,15 @@
+{
+  "name": "develop",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "develop_bg.wasm",
+    "develop.js",
+    "develop.d.ts"
+  ],
+  "main": "develop.js",
+  "types": "develop.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
