@@ -20,30 +20,38 @@
         background-repeat: repeat;
         background-size: 120px 120px;
       }
-      .blob {
-        background-color: hsla(33, 100%, 50%, 0.5);
+      .sub-body {
+        background-color: hsla(33, 75%, 63%, 0.795);
+        margin: 8%;
+        border-radius: 4%;
+        margin-block: 4%;
       }
-      .blob-base {
-        background-color: hsla(0, 0%, 100%, 0.5);
+      .main-body {
+        background-color: hsla(244, 80%, 63%, 0.603);
+        border-radius: 12%;
+        border: #292;
+        margin: 8%;
+        box-shadow: #000;
+        text-shadow: #222;
       }
     </style>
   </head>
   <body>
-    <div class="blob-base">
-      
-      <div class="blob">
+    <div class="main-body">
+
+      <div class="sub-body">
         
-        <h2 class="blob">Here's a <a text="Blog" href="blog/index.html">Blog.</a></h2>
+        <h2 class="sub-body">Here's a <a text="Blog" href="blog/index.html">Blog.</a></h2>
   
         <h2>Here's some <a text="Art" href="art/index.html">Art.</a></h2>
         
         <h2>Here's some theories <a text="Papers" href="papers/index.html">Papers.</a></h2>
         
-        <h2 class="blob">Press the "Play" button to start the wasm test game, loading might take a minite so please be patient.</h2>
+        <h2 class="sub-body">Press the "Play" button to start the wasm test game, loading might take a minite so please be patient.</h2>
         
         <h3>Please note that it is still in a frequently broken testing state, and will be until further notice.</h3>
         
-        <p class="blob">
+        <p class="sub-body">
           <a href="pkg/index.html"> <button class="btn, blob">Play</button> </a>
         </p>
         
