@@ -1,4 +1,4 @@
-body {
+html {
     margin: auto;
     background: linear-gradient(
       135deg,
@@ -13,6 +13,13 @@ body {
     );
     background-repeat: repeat;
     background-size: 120px 120px;
+}
+header, body, footer {
+    background-color: hsla(33, 100%, 77%, 0.726);
+    margin: 3%;
+}
+body {
+    background-color: hsla(33, 100%, 77%, 0.726);
   }
   .sub-body {
     background-color: hsla(33, 75%, 63%, 0.795);
