@@ -1,12 +1,25 @@
 {
-	"name": "Simple PWA",
-	"short_name": "Simple PWA",
+	"name": "End The Cult",
+	"short_name": "ETC",
+	"start_url": "index.html",
 	"display": "standalone",
-	"start_url": "./?utm_source=pwa_install",
 	"scope": ".",
-	"theme_color": "#000",
-	"background_color": "#000",
+    "description":"This is a PWA test.",
+	"theme_color": "#003",
+	"background_color": "#900",
 	"icons":[
+
+        {
+        "src":"icons/web-app-icon-192x192.png",                      
+        "sizes":"192x192",
+        "type":"image/png"
+        },
+        {
+        "src":"icons/web-app-icon-512x512.png",
+        "sizes":"512x512",
+        "type":"image/png"
+        },
+
         {
             "src": "android-chrome-36x36.png",
             "sizes": "36x36",
