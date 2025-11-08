@@ -9,7 +9,6 @@
 	"theme_color": "#003",
 	"background_color": "#900",
 	"icons":[
-
         {
         "src":"icons/web-app-icon-192x192.png",                      
         "sizes":"192x192",
@@ -18,6 +17,11 @@
         {
         "src":"icons/web-app-icon-512x512.png",
         "sizes":"512x512",
+        "type":"image/png"
+        },
+        {
+        "src":"icons/android-chrome-36x36.png",
+        "sizes":"36x36",
         "type":"image/png"
         }
 	]
