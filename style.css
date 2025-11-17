@@ -15,30 +15,41 @@ html {
     background-size: 120px 120px;
 }
 head, body, footer {
-    background-color: hsla(33, 100%, 77%, 0.726);
-    margin: 3%;
-}
-body {
-    background-color: hsla(33, 100%, 77%, 0.726);
-  }
-  .sub-body {
-    background-color: hsla(33, 75%, 63%, 0.795);
-    margin: 8%;
-    border-radius: 4%;
-    margin-block: 4%;
-  }
-  .main-body {
-    background-color: hsla(244, 80%, 63%, 0.603);
-    border-radius: 5%;
-    border: #292;
-    margin: 8%;
-    box-shadow: #000;
-    text-shadow: #222;
-  }
-p {
-    color: #929;
+    background-color: hsla(33, 97%, 69%, 0.801);
+    margin: 2%;
+    padding: 1%;
+    box-shadow: -10px 7px 8px 9px rgba(54, 1, 1, 0.666);
 }
 
-h2 {
-    color: #123;
+.head-text {
+  background-color: hwb(64 17% 11% / 0.918);
+  margin: 2%;
+  padding: 1%;
+  box-shadow: -10px 7px 8px 9px rgba(54, 1, 1, 0.666);
+}
+
+.main-body {
+  background-color: hsla(266, 100%, 79%, 0.781);
+  border-radius: 18%;
+  padding: 2%;
+  border: #292;
+  margin: 2%;
+  text-shadow: #222;
+  box-shadow: -10px 7px 8px 9px rgba(54, 1, 1, 0.666);
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1d1d1;
+  box-shadow: -10px 7px 8px 9px rgba(54, 1, 1, 0.666);
+  padding: 12px 16px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
