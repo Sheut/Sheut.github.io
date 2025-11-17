@@ -15,27 +15,35 @@ html {
     background-size: 120px 120px;
 }
 head, body, footer {
-    background-color: hsla(33, 97%, 69%, 0.801);
+    background-color: hsla(33, 97%, 69%, 0.81);
     margin: 2%;
     padding: 1%;
-    box-shadow: -10px 7px 8px 9px rgba(54, 1, 1, 0.666);
+    box-shadow: -10px 7px 8px 9px rgba(54, 1, 1, 0.66);
+}
+
+footer {
+  border-radius: 5px;
+  background-color: hwb(64 17% 11% / 0.918);
 }
 
 .head-text {
-  background-color: hwb(64 17% 11% / 0.918);
+  background-color: hsla(216, 100%, 60%, 0.81);
+  border-radius: 18px;
   margin: 2%;
   padding: 1%;
-  box-shadow: -10px 7px 8px 9px rgba(54, 1, 1, 0.666);
+  box-shadow: -10px 7px 8px 9px rgba(54, 1, 1, 0.66);
+  margin-right: 12%;
 }
 
 .main-body {
-  background-color: hsla(266, 100%, 79%, 0.781);
-  border-radius: 18%;
-  padding: 2%;
-  border: #292;
+  background-color: hsla(128, 97%, 48%, 0.81);
+  border-radius: 33%;
+  padding: 5%;
   margin: 2%;
   text-shadow: #222;
-  box-shadow: -10px 7px 8px 9px rgba(54, 1, 1, 0.666);
+  margin-left: 8%;
+  text-align: center;
+  box-shadow: -10px 7px 8px 9px rgba(54, 1, 1, 0.66);
 }
 
 .dropdown {
@@ -46,7 +54,7 @@ head, body, footer {
   display: none;
   position: absolute;
   background-color: #f1d1d1;
-  box-shadow: -10px 7px 8px 9px rgba(54, 1, 1, 0.666);
+  box-shadow: -10px 7px 8px 9px rgba(54, 1, 1, 0.66);
   padding: 12px 16px;
 }
 
